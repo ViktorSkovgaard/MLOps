@@ -49,6 +49,7 @@ on:
 jobs:
   test:
     runs-on: ${{ matrix.os }}
+    retention-days: 1
     strategy:
       fail-fast: false
       matrix:
@@ -75,6 +76,7 @@ jobs:
         uses: astral-sh/setup-uv@v7
         with:
           python-version: ${{ matrix.python-version }}
+          enable-cache: true
 
       - name: Run tests & coverage
         run: |
