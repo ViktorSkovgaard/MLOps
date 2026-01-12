@@ -23,9 +23,7 @@ dependencies = [
     "typer==0.15.1",
     "uvicorn==0.34.0",
     "matplotlib",
-    "pathlib",
     "wandb>=0.23.1",
-    "pytest>=8.3.4",
 ]
 
 [dependency-groups]
