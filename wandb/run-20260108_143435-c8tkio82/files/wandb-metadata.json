@@ -1,0 +1,24 @@
+{
+  "os":  "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.31",
+  "python":  "CPython 3.11.7",
+  "startedAt":  "2026-01-08T13:34:35.963943Z",
+  "program":  "/home/s211222/MLOps/src/my_project/train_d4.py",
+  "codePath":  "src/my_project/train_d4.py",
+  "codePathLocal":  "src/my_project/train_d4.py",
+  "email":  "viktor.skovgaard@gmail.com",
+  "root":  "/home/s211222/MLOps",
+  "host":  "LenovoPrime",
+  "executable":  "/home/s211222/MLOps/.venv/bin/python3",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "269427478528",
+      "used":  "14967263232"
+    }
+  },
+  "memory":  {
+    "total":  "7188197376"
+  },
+  "writerId":  "1yqfs4oqi113sxrdcptqndt77wdzx9ll"
+}
