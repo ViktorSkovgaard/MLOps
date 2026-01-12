@@ -49,7 +49,7 @@ on:
 jobs:
   test:
     runs-on: ${{ matrix.os }}
-    retention-days: 1
+    # retention-days: 1
     strategy:
       fail-fast: false
       matrix:
